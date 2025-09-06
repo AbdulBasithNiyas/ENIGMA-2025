@@ -16,7 +16,7 @@ for r in arr:
         exit()
     elif set(r) == num_set:
         double_sudoku_list = []
-        for i in range(1, 7, 3):
-            for j in range(1, 7, 3):
+        for i in range(1, 8, 3):
+            for j in range(1, 8, 3):
                 double_sudoku_list.append(arr[i][j])
         print(double_sudoku_list)
